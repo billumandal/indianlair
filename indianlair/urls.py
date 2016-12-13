@@ -20,5 +20,5 @@ from machina.app import board
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^forum/', include(board.urls)),
+    url(r'^', include(board.urls)),
 ]

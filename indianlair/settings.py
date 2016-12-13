@@ -156,3 +156,8 @@ HAYSTACK_CONNECTIONS = {
     # 'PATH': os.path.join(PROJECT_PATH, 'whoosh_index'),
   },
 }
+
+AUTH_PASSWORD_VALIDATORS = []
+# Removed password checking for simple password from admin (and maybe other places)
+# Change it during production
+# http://stackoverflow.com/questions/35032159/how-to-set-simple-password-in-django-1-9#comment57789923_35032185
