@@ -1,0 +1,4 @@
+jinja2
+# It'll also try to install markupsafe, for that you need VCforPython27, if you don't have it, then install it
+markupsafe
+Django-Machina
